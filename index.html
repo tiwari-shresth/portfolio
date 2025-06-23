@@ -5,45 +5,71 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Shresth Tiwari | Portfolio</title>
   <link rel="stylesheet" href="style.css"/>
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-  <header>
+  <header data-aos="fade-down">
     <h1>Hi, I'm Shresth Tiwari</h1>
     <p>Data Science & Machine Learning Enthusiast</p>
   </header>
 
-  <section id="about">
+  <section id="about" data-aos="fade-up">
     <h2>About Me</h2>
     <p>I’m a B.Tech CSE student at Amity University with a passion for data science, machine learning, and solving real-world problems using technology. I work with Python, R, and cloud tools like Azure.</p>
   </section>
+  
+  <section id="connect" data-aos="fade-up">
+  <h2>Connect with Me</h2>
+  <div class="connect-links">
+    <a href="https://www.linkedin.com/in/shresth-tiwari-37b417300/" target="_blank">LinkedIn</a>
+    <a href="https://github.com/shresthtiwari" target="_blank">GitHub</a>
+    <a href="https://leetcode.com/shresthtiwari/" target="_blank">LeetCode</a>
+    <a href="https://twitter.com/shresthtiwari_" target="_blank">X (Twitter)</a>
+    <a href="https://instagram.com/shresth__tiwari" target="_blank">Instagram</a>
+  </div>
+</section>
 
-  <section id="projects">
+  <section id="projects" data-aos="fade-up">
     <h2>Projects</h2>
-    <div class="project-card">
+    <div class="project-card" data-aos="zoom-in">
       <h3>Zomato EDA Project</h3>
       <p>Performed Exploratory Data Analysis on the Zomato dataset using Python libraries like Pandas, Seaborn, and Matplotlib.</p>
       <a href="https://github.com/shresthtiwari/Zomato-EDA" target="_blank">View on GitHub</a>
     </div>
-    <div class="project-card">
+    <div class="project-card" data-aos="zoom-in">
       <h3>IMDb EDA Project</h3>
       <p>Analyzed IMDb movie data using data visualization and statistical insights to find trends and distributions.</p>
       <a href="https://github.com/shresthtiwari/IMDb-EDA" target="_blank">View on GitHub</a>
     </div>
   </section>
 
-  <section id="skills">
+  <section id="skills" data-aos="fade-up">
     <h2>Skills</h2>
     <p>Python, R, Scikit-Learn, Pandas, NumPy, Matplotlib, Seaborn, Plotly, MySQL, Azure, Anaconda, Git, GitHub</p>
   </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: shresth.tiwari@example.com</p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/shresth-tiwari-37b417300/" target="_blank">Connect with me</a></p>
-  </section>
+  
+<section id="contact" data-aos="fade-up">
+  <h2>Contact</h2>
+  <ul>
+    <li><strong>Email:</strong> shresth.tiwari@example.com</li>
+    <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/shresth-tiwari-37b417300/" target="_blank">linkedin.com/in/shresth-tiwari</a></li>
+    <li><strong>GitHub:</strong> <a href="https://github.com/shresthtiwari" target="_blank">github.com/shresthtiwari</a></li>
+    <li><strong>LeetCode:</strong> <a href="https://leetcode.com/shresthtiwari/" target="_blank">leetcode.com/shresthtiwari</a></li>
+    <li><strong>Twitter (X):</strong> <a href="https://twitter.com/shresthtiwari_" target="_blank">twitter.com/shresthtiwari_</a></li>
+    <li><strong>Instagram:</strong> <a href="https://instagram.com/shresth__tiwari" target="_blank">instagram.com/shresth__tiwari</a></li>
+  </ul>
+</section>
 
-  <footer>
+
+  <footer data-aos="fade-in">
     <p>© 2025 Shresth Tiwari</p>
   </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
