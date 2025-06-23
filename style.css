@@ -48,3 +48,23 @@ footer {
   margin-top: 40px;
   color: #8b949e;
 }
+.connect-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.connect-links a {
+  background-color: #238636;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.connect-links a:hover {
+  background-color: #2ea043;
+}
